@@ -1,0 +1,4 @@
+method,foreground_fraction,runtime_seconds
+Otsu,0.03191184573002755,0.2361
+KMeans-2,0.03190082644628099,0.2674
+KMeans-3,0.03169146005509642,0.2533
