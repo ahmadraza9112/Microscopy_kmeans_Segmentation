@@ -1,8 +1,6 @@
 # Unsupervised Microscopy Image Segmentation Using K-Means
 
 
-> **GitHub + Kaggle** — This repository contains a self-contained notebook originally prepared for Kaggle: [`notebooks/Microscopy_Segmentation_Kaggle.ipynb`](notebooks/Microscopy_Segmentation_Kaggle.ipynb). The same experiment can also be reproduced locally with `python run.py`. If your final Kaggle version has newer changes, export it and replace this file before publishing. Add the public Kaggle link once available.
-
 **Small, reproducible introductory machine learning project.** Compare Otsu thresholding with K-Means clustering (K=2 and K=3) on a *real cell microscopy image* and *controlled synthetic cell-shaped objects with reference masks*. No GPU, no neural networks, and no training labels.
 
 ## Quick start
@@ -88,11 +86,3 @@ See [REPORT.md](REPORT.md) for equations, methods, interpretation and citations.
 ```bash
 python -m unittest discover -s tests -v
 ```
-
-## Repository and CV integrity
-
-This was built as an **independent academic project in 2026**, connected to the topics taught in Machine Learning (BIME740413). It should **not** be described as a confirmed final submission for a 2025 course. The datasets and measurements are explicitly labeled to prevent overstating results. See [CV_ENTRY.md](CV_ENTRY.md).
-
-## Publishing
-
-Follow `PUBLISHING.md` to create this as its own GitHub repository. GitHub publication requires your own authenticated account.
